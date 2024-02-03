@@ -17,6 +17,15 @@ public class Variable_manupulation {
         int cube = a*a*a;
         System.out.println(cube);
 
+        String name = "raj";
+        int age = 50;
+        double salary = 50000;
+        String father = "raju";
+
+        System.out.println("printing all variables   ," + "name  :"+name + "  age  ;"+ age +"  salary:  " + salary +"  father name:  " + father + a + b+
+                add + divide + square + cube);
+
+
 
 
 
