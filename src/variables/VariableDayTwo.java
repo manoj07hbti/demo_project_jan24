@@ -22,5 +22,11 @@ public class VariableDayTwo {
         int number3=6;
         int square3=number3*number3;
         System.out.println("this is four square number ; "+square3);
+
+
+
+
+
+
     }
 }
