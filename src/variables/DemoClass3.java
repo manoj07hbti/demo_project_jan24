@@ -1,3 +1,5 @@
+package variables;
+
 public class DemoClass3 {
 
     public static void main(String[] args){

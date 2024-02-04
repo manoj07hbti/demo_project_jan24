@@ -1,3 +1,5 @@
+package variables;
+
 public class Revisiongit {
 
     public static void main(String[] args){
