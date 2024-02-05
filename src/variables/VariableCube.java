@@ -21,6 +21,10 @@ package variables;public class VariableCube {
         int cube5=number5*number5*number5;
         System.out.println("this is cube number;"+cube5);
 
+        int number6=32;
+        int cube6=number6*number6*number6;
+        System.out.println("this is cube number;"+cube6);
+
 
     }
 }
