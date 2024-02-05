@@ -13,11 +13,9 @@ package variables;public class VariableCube {
         int cube3=number3*number3*number3;
         System.out.println("this is cube number;"+cube3);
 
-
         int number4=17;
         int cube4=number4*number4*number4;
         System.out.println("this is cube number;"+cube4);
-
 
         int number5=22;
         int cube5=number5*number5*number5;
