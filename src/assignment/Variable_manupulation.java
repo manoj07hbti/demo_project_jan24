@@ -22,8 +22,8 @@ public class Variable_manupulation {
         double salary = 50000;
         String father = "raju";
 
-        System.out.println("printing all variables   ," + "name  :"+name + "  age  ;"+ age +"  salary:  " + salary +"  father name:  " + father + a + b+
-                add + divide + square + cube);
+        System.out.println("printing all variables   ," + "\n" +"name  :"+name + "\n" +"  age  ;"+ age +"\n" +"  salary:  " + salary +"\n" +"  father name:  " + father +"\n" + a +"\n" + b+
+                "\n" +  add + "\n" +divide + "\n" +square +"\n" + cube);
 
 
 
