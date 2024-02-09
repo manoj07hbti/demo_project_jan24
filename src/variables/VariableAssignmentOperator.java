@@ -9,8 +9,9 @@ public class VariableAssignmentOperator {
         int a=34667;
         int b=7;
 
-        double divide=(double)a*b/100; // number * percentage/100
-        System.out.println("Printing Calculation Percentage :"+divide);
+        double per=(double)a*b/100; // number * percentage/100
+        System.out.println("Printing Calculation Percentage :"+per);
+
 
 
 
