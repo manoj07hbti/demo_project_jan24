@@ -14,13 +14,13 @@ public class CheckAge {
             System.out.println("age is child age");
         }
         //  2. age >=18  and <=40 : Young
-        int b=17;
-        if(a>=18 && a<=40){
+        int b=25;
+        if(b>=18 && b<=40){
             System.out.println("age is young age");
         }
         //  3. age >=60 : Old Age
         int c=70;
-        if(a>=60){
+        if(c>=60){
             System.out.println("age is old age");
         }
 
