@@ -11,15 +11,14 @@ public class DemoIf {
 
         //TODO - write a code given marks is greater or equal to 60 : first division
 
-        int marks = 60;
-        if (marks >= 60) {
-            System.out.println("Given marks Is Greater Or Equal To :" + marks);
+        int marks =60;
+        if (marks>=60){
             System.out.println("Given marks is greater or equal to 60 so you got first division :" + marks);
         }
-        int mark = 32;
-        if (mark < 33) ;
+        int mark=33;
+        if (mark<33) ;
         {
-            System.out.println("given marks is less than 33 so you failed :" + mark);
+            System.out.println("given marks is less than 33 so you not cleared exam:" + mark);
         }
         int price = 6000;
         if (price > 5000) {
@@ -32,14 +31,12 @@ public class DemoIf {
         }
 
         String nation="You Are INDIAN";
-        if(nation=="INDIAN");
-        {
+        if(nation=="INDIAN");{
             System.out.println("You are living in India :"+nation);
         }
-
-        String Nations="You are not indian";
-        if(Nations=="Australian");{
-            System.out.println("If You are living in Australia :"+Nations);
+        String Nations="INDIAN";
+        if(Nations!="INDIAN");{
+            System.out.println("If You are Not INDIAN :"+Nations);
         }
 
         
