@@ -1,7 +1,4 @@
 package condition_statement_if_and_if_else;
-
-import java.sql.SQLOutput;
-
 public class DemoIfAndElse {
 
     public static void main(String[] args){
