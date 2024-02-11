@@ -11,7 +11,7 @@ public class VariableOperatorRevisionClass2 {
 
         a+=b; // a=a+b;
 
-        System.out.println("Printing a :"+a); // a=10
+        System.out.println("Printing a :"+a); // a=14
         a*=b; // a=a*b;
         System.out.println("Printing a :"+a);
 
