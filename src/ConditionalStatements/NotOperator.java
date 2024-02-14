@@ -1,4 +1,4 @@
-package assignment;
+package ConditionalStatements;
 
 public class NotOperator {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package assignment;
+package ConditionalStatements;
 
 public class AND_OR_Operator {
     public static void main(String[] args) {

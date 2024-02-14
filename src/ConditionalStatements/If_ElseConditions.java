@@ -1,4 +1,4 @@
-package assignment;
+package ConditionalStatements;
 
 public class If_ElseConditions {
     public static void main(String[] args) {

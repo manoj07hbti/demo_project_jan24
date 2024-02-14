@@ -1,4 +1,4 @@
-package assignment;
+package ConditionalStatements;
 
 public class Variable_manupulation {
     public static void main(String[] args) {

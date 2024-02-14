@@ -1,4 +1,4 @@
-package assignment;
+package ConditionalStatements;
 
 public class Nested_IF {
     public static void main(String[] args) {
