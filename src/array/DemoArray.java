@@ -32,6 +32,20 @@ public class DemoArray {
             System.out.println("Printing using Advanced loop..."+var);
         }
 
+        //TODO find index of Jatin
+
+        String name="Manish";
+        for (int i=0; i<studentNames.length; i++){
+
+            if(studentNames[i]==(name)){
+
+                System.out.println("Data found at index :"+i);
+            }else {
+                System.out.println("Data not found in array...");
+            }
+
+        }
+
 
     }
 }
