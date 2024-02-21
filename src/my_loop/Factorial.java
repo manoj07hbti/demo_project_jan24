@@ -10,6 +10,7 @@ public class Factorial {
                 flag = true;
                 break;
             }
+
         }
         if (!flag)
             System.out.println(num + " is a prime number.");
