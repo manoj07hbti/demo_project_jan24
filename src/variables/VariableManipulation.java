@@ -5,6 +5,7 @@ public class VariableManipulation {
 
         //Addition of two number
 
+
         int a=7;
         int b=9;
         int sum=a+b;
@@ -12,11 +13,14 @@ public class VariableManipulation {
 
 
 
+
         int sub=a-b;
         System.out.println("subtraction of a and b is :"+sub);
 
+
         int multi=a*b;
         System.out.println("Printing multiplication :"+multi);
+
 
 
         double divide=(double)a/b;  //  0.77
