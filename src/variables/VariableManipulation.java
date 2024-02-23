@@ -3,7 +3,9 @@ package variables;
 public class VariableManipulation {
     public static void main(String[] args) {
 
+
         //Addition of two number
+
 
         int a=3;
         int b=8;
