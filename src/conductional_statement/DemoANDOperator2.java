@@ -29,8 +29,8 @@ public class DemoANDOperator2 {
 
         //3.   FALSE & TRUE= FALSE    0*1= 0
         int marks3 = 50;
-        String section3 = "english";
-        if (marks>=60 && section3=="science") {
+        String section3 = "English";
+        if (marks>=60 && section3=="Science") {
             System.out.println("Student got 60 marks in science stream");
         } else {
             System.out.println("Either Student got less than 50 marks in english stream");
@@ -39,8 +39,8 @@ public class DemoANDOperator2 {
 
         //4.   FALSE & FALSE= FALSE   0*0= 0
         int marks4 = -50;
-        String section4 = "english";
-        if (marks>=50 && section=="english") {
+        String section4 = "English";
+        if (marks>=50 && section=="English") {
             System.out.println("Student got 60 marks in science stream");
         } else {
             System.out.println("Either Student got less than 50 marks in Hindi stream");
