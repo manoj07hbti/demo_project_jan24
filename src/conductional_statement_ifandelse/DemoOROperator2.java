@@ -1,4 +1,4 @@
-package conductional_statement;public class DemoOROperator2 {
+package conductional_statement_ifandelse;public class DemoOROperator2 {
     public static void main(String[] args) {
 
         // TODO Write a code for Laptop brand based on brand name and hardware RAM configuration we need show goog quality or poor quality

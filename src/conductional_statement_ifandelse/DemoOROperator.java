@@ -1,4 +1,4 @@
-package conductional_statement;public class DemoOROperator {
+package conductional_statement_ifandelse;public class DemoOROperator {
 
     public static void main(String[] args) {
         int marks = 50;

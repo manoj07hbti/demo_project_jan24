@@ -1,4 +1,4 @@
-package conductional_statement;
+package conductional_statement_ifandelse;
 
 public class DemoANDOperator3 {
     public static void main(String[] args) {

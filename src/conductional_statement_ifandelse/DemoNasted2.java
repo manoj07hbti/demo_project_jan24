@@ -1,4 +1,4 @@
-package conductional_statement;
+package conductional_statement_ifandelse;
 
 public class DemoNasted2 {
     public static void main(String[] args) {

@@ -1,13 +1,13 @@
-package conductional_statement;
+package conductional_statement_ifandelse;
 
-public class DemoIfConduction {
+public class DemoNasted1 {
     public static void main(String[] args) {
 
         //TODO write a code which can find even and odd numbers which is greater than 0
 
-        int number = 5;
+        int number = 7;
 
-        if (number >= 0) {
+        if (number > 0) {
 
             if (number % 2 == 0) {
 
@@ -15,6 +15,10 @@ public class DemoIfConduction {
             } else {
                 System.out.println("given number is even or odd");
             }
+
+
+
+
             // TODO write a code which can check any number divisible by 3 and greater than 0
 
             int numbers = 3;
@@ -27,5 +31,6 @@ public class DemoIfConduction {
                 }
             }
         }
+
     }
 }
