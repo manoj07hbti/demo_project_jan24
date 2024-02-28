@@ -23,7 +23,7 @@ public class BreakInLoop {
         //   Print marks of Students in a class and if you find any students with less than 33 marks
         //   then you need break.
 
-        }
+    }
     }
 
 
