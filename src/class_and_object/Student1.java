@@ -1,11 +1,11 @@
 package class_and_object;
 
 public class Student1 {
-    String Name = "Rajeev";
-    String Section = "IT";
-    String CourseName = "Java";
-    int age = 38;
-    String Semester ="Final";
+    String Name;
+    String Section;
+    String CourseName;
+    int age;
+    String Semester;
 
     public Student1(String name, String section, String courseName, int age, String semester) {
         Name = name;
@@ -22,7 +22,6 @@ public class Student1 {
         System.out.println("Printing Student1 CourseName:"+Student2.CourseName);
         System.out.println("Printing Student1 Age:"+Student2.age);
         System.out.println("Printing Student1 Semester:"+Student2.Semester);
-
 
     }
 
