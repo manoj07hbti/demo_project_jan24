@@ -31,6 +31,11 @@ public class Book {
          System.out.println("This is demo Sale method ");
      }
 
+
+     public void demoalert(){
+         System.out.println("Thid is demo alert mothed ");
+     }
+
     public static void main(String[] args) {
 
         // step 1 create object
