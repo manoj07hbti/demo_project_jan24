@@ -1,4 +1,4 @@
-package Methods;
+package Methods.non_parameterized;
 
 public class Calculator {
 
