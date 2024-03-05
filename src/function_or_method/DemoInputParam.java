@@ -35,6 +35,19 @@ public class DemoInputParam {
 
     }
 
+    public void factorial(int number){
+        int factorial=1;
+
+        for(int i=number; i>0; i--){
+           factorial=factorial*i;
+
+        }
+
+        System.out.println("Factorial of given number is: "+factorial);
+
+
+    }
+
     public static void main(String[] args) {
 
         DemoInputParam obj = new DemoInputParam();
@@ -44,6 +57,8 @@ public class DemoInputParam {
 
         obj.checkVote("Pune", 21);
         obj.checkVote("Agra", 21);
+
+        obj.factorial(6);
     }
 
 
