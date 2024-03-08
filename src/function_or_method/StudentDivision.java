@@ -5,7 +5,7 @@ public class StudentDivision {
     public void StudentDivision() {
         int TotalNumber = 360  ;
         int TotalSub = 6;
-        double per = TotalNumber/6;
+        double per = (double)TotalNumber/6;
         System.out.println("Total :" + TotalNumber);
         System.out.println("Percentage :" + per);
         if (per >= 60) {
