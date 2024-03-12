@@ -32,7 +32,7 @@ public class Calc {
                 int i = scanner.nextInt();
                 System.out.println("Enter Second Number : ");
                 int n = scanner.nextInt();
-                System.out.println(+i+" + "+n+" = "+ calc.Add(i,n));
+                System.out.println(i+" + "+n+" = "+ calc.Add(i,n));
                 break;
             case 2 :
                 System.out.println("Enter First Number : ");
