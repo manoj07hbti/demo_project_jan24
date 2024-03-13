@@ -8,10 +8,9 @@ public class Even_Odd_With_ReturnType {
             return "This Is Odd Number:"+number;
         }
     }
-
     public static void main(String[] args) {
         Even_Odd_With_ReturnType obj=new Even_Odd_With_ReturnType();
-        String eve_and_odd= obj.eve_and_odd(12);
+        String eve_and_odd= obj.eve_and_odd(35);
         System.out.println(eve_and_odd);
     }
 
