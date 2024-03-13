@@ -14,8 +14,9 @@ public class DemoScannerClass {
         double Salary = scanner.nextDouble();
         System.out.println("User has entered: " + Salary);
 
+        Scanner scanner2 = new Scanner(System.in);
         System.out.println("Please enter your EmpCode");
-        int EmpCode= scanner.nextInt()  ;
+        String EmpCode= scanner2.nextLine()  ;
         System.out.println("User has entered :"+ EmpCode);
 
 
