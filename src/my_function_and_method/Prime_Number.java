@@ -2,7 +2,7 @@ package my_function_and_method;
 
 public class Prime_Number {
     public void prime(){
-        int num = 29;
+        int num =29;
         boolean flag = false;
         for (int i = 2; i <= num / 2; ++i) {
             if (num % i == 0) {
