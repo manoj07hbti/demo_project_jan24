@@ -24,49 +24,54 @@ public class Calculator {
 
         String  choice = "Y";
 
-        do {
+  //  for (int o =1; o>0;) {
+      do {
 
-            System.out.println("1 : Addition.");
-            System.out.println("2 : Subtraction.");
-            System.out.println("3 : Multiplication.");
-            System.out.println("4 : Division");
-            System.out.println("Enter Option : ");
+    System.out.println("1 : Addition.");
+    System.out.println("2 : Subtraction.");
+    System.out.println("3 : Multiplication.");
+    System.out.println("4 : Division");
+    System.out.println("Enter Option : ");
 
-            int j =scanner.nextInt();
-            switch (j){
-                case 1 :
-                    System.out.println("Enter First Number : ");
-                    int i = scanner.nextInt();
-                    System.out.println("Enter Second Number : ");
-                    int n = scanner.nextInt();
-                    System.out.println(i+" + "+n+" = "+ calculator.Add(i,n));
-                    break;
-                case 2 :
-                    System.out.println("Enter First Number : ");
-                    int a = scanner.nextInt();
-                    System.out.println("Enter Second Number : ");
-                    int b = scanner.nextInt();
-                    System.out.println(a+" - "+b+ " = "+calculator.Sub(a,b));
-                    break;
-                case 3 :
-                    System.out.println("Enter First Number : ");
-                    int s = scanner.nextInt();
-                    System.out.println("Enter Second Number : ");
-                    int d = scanner.nextInt();
-                    System.out.println(s+" * "+d+ " = "+calculator.Multi(s,d));
-                    break;
-                case 4 :
-                    System.out.println("Enter First Number : ");
-                    double x = scanner.nextDouble();
-                    System.out.println("Enter Second Number : ");
-                    double y = scanner.nextDouble();
-                    System.out.println(x+" / "+y+ " = "+calculator.div(x,y));
-                default:
-                    System.out.println("Enter valid Number(option 1, 2, 3, or 4");
-            }
-            System.out.println();
-            System.out.println(" == ☻ ThankYou ☻ ==");
+    int j = scanner.nextInt();
+    switch (j) {
+        case 1:
+            System.out.println("Enter First Number : ");
+            int i = scanner.nextInt();
+            System.out.println("Enter Second Number : ");
+            int n = scanner.nextInt();
+            System.out.println(i + " + " + n + " = " + calculator.Add(i, n));
+            break;
+        case 2:
+            System.out.println("Enter First Number : ");
+            int a = scanner.nextInt();
+            System.out.println("Enter Second Number : ");
+            int b = scanner.nextInt();
+            System.out.println(a + " - " + b + " = " + calculator.Sub(a, b));
+            break;
+        case 3:
+            System.out.println("Enter First Number : ");
+            int s = scanner.nextInt();
+            System.out.println("Enter Second Number : ");
+            int d = scanner.nextInt();
+            System.out.println(s + " * " + d + " = " + calculator.Multi(s, d));
+            break;
+        case 4:
+            System.out.println("Enter First Number : ");
+            double x = scanner.nextDouble();
+            System.out.println("Enter Second Number : ");
+            double y = scanner.nextDouble();
+            System.out.println(x + " / " + y + " = " + calculator.div(x, y));
+        default:
+            System.out.println("Enter valid Number(option 1, 2, 3, or 4");
+    }
+         System.out.println();
+         System.out.println(" == ☻ ThankYou ☻ ==");
 
+//        System.out.println("to continue Enter Y");
+//        String user = scanner.next();
+//        if (user.equalsIgnoreCase("Y"));
+ //    }
 
 
 
