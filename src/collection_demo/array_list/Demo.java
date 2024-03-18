@@ -1,4 +1,4 @@
-package collection_demo;
+package collection_demo.array_list;
 
 import java.util.ArrayList;
 
@@ -20,6 +20,9 @@ public class Demo {
         list.add("Ramesh");// 1 INDEX
         list.add("Mukesh");// 2 INDEX
         list.add("Mohit");//3 INDEX
+        list.add(33);
+        list.add(34.23);
+        list.add(false);
 
         //TODO print all element of list using for, while , do while and advance for loop
         // list.size();// it will give size of list
