@@ -17,11 +17,17 @@ public class Calculator {
     private int Multi(int num1,int num2){
         return num1*num2;
     }
+    private static void ReadValue(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter First Number : ");
+        int i = scanner.nextInt();
+        System.out.println("Enter Second Number : ");
+        int n = scanner.nextInt();
+    }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Calculator calculator = new Calculator();
-
         String  choice = "Y";
 
   //  for (int o =1; o>0;) {
@@ -36,11 +42,12 @@ public class Calculator {
     int j = scanner.nextInt();
     switch (j) {
         case 1:
-            System.out.println("Enter First Number : ");
-            int i = scanner.nextInt();
-            System.out.println("Enter Second Number : ");
-            int n = scanner.nextInt();
-            System.out.println(i + " + " + n + " = " + calculator.Add(i, n));
+//            System.out.println("Enter First Number : ");
+//            int i = scanner.nextInt();
+//            System.out.println("Enter Second Number : ");
+//            int n = scanner.nextInt();
+           // ReadValue();
+         //   System.out.println(i + " + " + n + " = " + calculator.Add(i, n));
             break;
         case 2:
             System.out.println("Enter First Number : ");
