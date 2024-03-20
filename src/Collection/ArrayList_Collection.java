@@ -3,8 +3,8 @@ package Collection;
 import java.util.ArrayList;
 
 
-public class ArrayList_Collection {
-    public void coll() {
+ class ArrayList_Collection {
+    private void coll() {
         ArrayList<String> List = new ArrayList<>();
 
         List.add("Atif");
