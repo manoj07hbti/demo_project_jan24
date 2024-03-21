@@ -12,8 +12,10 @@ public class My_Array_List {
      list.add("mukesh");
      list.add("ram");
     System.out.println(list);
+
     System.out.println("printing data :"+list.get(1));
-      list.remove(0);
+
+      list.remove(1);
       System.out.println("After delete :"+list);
     }
 
