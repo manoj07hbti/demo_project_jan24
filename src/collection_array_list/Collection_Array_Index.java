@@ -21,8 +21,9 @@ public class Collection_Array_Index {
         list.add("Shruti"); // 5 INDEX
 
         Scanner scanner = new Scanner(System.in);
-        String String = scanner.next();
-        for (int i= 0; i<=list.size(); i++) {
+        String string = scanner.next();
+        for (int i= 0; i<list.size(); i++){
+            if(string.equals(list.get(i)))
                 System.out.println("Printing data :" + i);
         }
     }
