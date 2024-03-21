@@ -3,6 +3,7 @@ package my_collection_with_array_list;
 import java.util.ArrayList;
 
 public class My_Array_List {
+
     public void demo(){
    ArrayList list=new ArrayList<>();
 
