@@ -80,6 +80,7 @@ public class Collection_Array_List {
         //TODO find out the name which starts with Letter A
 
     for(String var : studentName){
+        if (var.startsWith("A"))
         System.out.println("Printing name:"+var);
     }
 
