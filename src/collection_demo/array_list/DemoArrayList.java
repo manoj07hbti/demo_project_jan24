@@ -1,6 +1,7 @@
 package collection_demo.array_list;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class DemoArrayList {
 
@@ -13,6 +14,25 @@ public class DemoArrayList {
         studentNames.add("Rahul");
         studentNames.add("Mohit");
         studentNames.add("Rakesh");
+        System.out.println("Printing exisiting list: "+studentNames);
+        String flag="Y";
+        Scanner scanner= new Scanner(System.in);
+        Scanner scanner_new= new Scanner(System.in);
+
+        String name="";
+
+        while (flag.equals("Y")){
+            System.out.println("Please enter name to be added into list");
+            name=scanner.nextLine();
+            if(!studentNames.contains(name)){
+                studentNames.add(name);
+            }
+
+            System.out.println("Printing list data: "+studentNames);
+
+            System.out.println("Do you want to add more name ? press Y to continue or press any other key exit...");
+            flag=scanner_new.nextLine();
+        }
 
       return studentNames;
     }
