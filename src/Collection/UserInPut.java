@@ -32,7 +32,7 @@ public class UserInPut {
                 doubles.add(addi);
             }
 
-            System.out.print("======Printing Values====");
+            System.out.println("======Printing Values====");
             for (double var:doubles) {
                 System.out.println(var);
             }
@@ -49,7 +49,7 @@ public class UserInPut {
                 int Ad =scanner.nextInt();
                 integers.add(Ad);
             }
-            System.out.print("======Printing Values====");
+            System.out.println("======Printing Values====");
             for (int var:integers){
                 System.out.println(var);
             }
