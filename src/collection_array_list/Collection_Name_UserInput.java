@@ -20,8 +20,11 @@ public class Collection_Name_UserInput {
 
         while (input.equals("Y")) {
             System.out.println("Enter student name:");
+            if(!studentName.contains(scan.next())){
+                studentName.add(scan.next());
+            }
 
-            studentName.add(scan.next());
+
             System.out.println("Student Name Add Done:"+studentName);
 
             System.out.println("Do you want to continue add name press Y or press any ket for Exit");
