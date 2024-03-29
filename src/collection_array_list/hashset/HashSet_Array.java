@@ -1,4 +1,4 @@
-package collection_array_list;
+package collection_array_list.hashset;
 
 import java.util.HashSet;
 
