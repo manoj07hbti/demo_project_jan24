@@ -3,12 +3,13 @@ package Set;
 import model.Engineer;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Scanner;
 
 public class Hashset_Of_Engineer {
 
-    public HashSet<Engineer> eng() {
-        HashSet<Engineer> set = new HashSet<Engineer>();
+    public LinkedHashSet<Engineer> eng() {
+        LinkedHashSet<Engineer> set = new LinkedHashSet<Engineer>();
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter to number of eng");
         int num;

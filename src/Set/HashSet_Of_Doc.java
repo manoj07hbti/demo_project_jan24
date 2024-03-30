@@ -3,13 +3,14 @@ package Set;
 import model.Doctor;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Scanner;
 
 public class HashSet_Of_Doc {
 
 
     public HashSet<Doctor> Doc() {
-        HashSet<Doctor> data = new HashSet<>();
+        LinkedHashSet<Doctor> data = new LinkedHashSet<>();
         Scanner scan = new Scanner(System.in);
         System.out.println("add num of doctors");
         int num;
