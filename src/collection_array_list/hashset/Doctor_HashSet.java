@@ -3,12 +3,13 @@ package collection_array_list.hashset;
 import model.Doctor;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 
 public class Doctor_HashSet {
 
-    public HashSet<Doctor> DoctorSet(){
+    public LinkedHashSet<Doctor> DoctorSet(){
 
-        HashSet<Doctor> doctorHashSet = new HashSet<>();
+        LinkedHashSet<Doctor> doctorHashSet = new LinkedHashSet<>();
 
         // create Doctor data
 

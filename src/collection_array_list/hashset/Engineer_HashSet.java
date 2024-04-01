@@ -4,12 +4,13 @@ import model.Doctor;
 import model.Engineer;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 
 public class Engineer_HashSet {
 
-    public HashSet<Engineer> EngineerSet() {
+    public LinkedHashSet<Engineer> EngineerSet() {
 
-        HashSet<Engineer> engineerHashSet = new HashSet<>();
+        LinkedHashSet<Engineer> engineerHashSet = new LinkedHashSet<>();
 
         Engineer engineer1 = new Engineer("Gaurav", "ME" , "Mumbai", "Sr Eng");
         System.out.println("HashCode of engineer1:"+engineer1.hashCode());
