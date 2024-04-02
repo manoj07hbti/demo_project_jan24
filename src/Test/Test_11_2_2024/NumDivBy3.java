@@ -1,4 +1,4 @@
-package Test_11_2_2024;
+package Test.Test_11_2_2024;
 
 public class NumDivBy3 {
     public static void main(String[] args) {

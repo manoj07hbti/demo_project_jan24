@@ -1,4 +1,4 @@
-package Test_18_2_2024;
+package Test.Test_18_2_2024;
 
 public class Even_num_div_by_10 {
     public static void main(String[] args) {

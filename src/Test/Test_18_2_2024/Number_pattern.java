@@ -1,4 +1,4 @@
-package Test_18_2_2024;
+package Test.Test_18_2_2024;
 
 public class Number_pattern {
     public static void main(String[] args) {

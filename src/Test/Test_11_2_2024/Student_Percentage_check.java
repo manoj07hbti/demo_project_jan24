@@ -1,4 +1,4 @@
-package Test_11_2_2024;
+package Test.Test_11_2_2024;
 
 public class Student_Percentage_check {
     public static void main(String[] args) {

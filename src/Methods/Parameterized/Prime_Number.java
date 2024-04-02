@@ -9,7 +9,7 @@ public class Prime_Number {
                f++;
            }
        }
-       if (f<=2){
+       if (f==2){
            System.out.println("number is prime number");
        }else {
            System.out.println("number is not a prime number");
