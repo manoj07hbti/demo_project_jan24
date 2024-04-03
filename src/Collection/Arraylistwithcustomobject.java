@@ -39,7 +39,7 @@ public class Arraylistwithcustomobject {
         ArrayList<Student> S = Student.studentlist();
 
         for (Student var : S) {
-            System.out.println("Name =  "+var.getName()+"   Age =  "  + var.getAge()+"  Sec  =  " + var.getSec());
+            System.out.println("Name =  "+var.getName()+"   Age =  "  + var.getAge()+"  Sec  =  " + var.getLast());
         }
 
 

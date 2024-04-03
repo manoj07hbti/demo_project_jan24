@@ -1,15 +1,33 @@
 package model;
 
+import java.util.Objects;
+
 public class Student {
 
     String name;
     int age;
-    String sec ;
+    String Last;
+
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Student student = (Student) o;
+        return age == student.age && Objects.equals(name, student.name) && Objects.equals(Last, student.Last);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, age, Last);
+    }
+
+
 
     public Student(String name, int age, String sec) {
         this.name = name;
         this.age = age;
-        this.sec = sec;
+        this.Last = sec;
     }
 
     public String getName() {
@@ -28,11 +46,11 @@ public class Student {
         this.age = age;
     }
 
-    public String getSec() {
-        return sec;
+    public String getLast() {
+        return Last;
     }
 
-    public void setSec(String sec) {
-        this.sec = sec;
+    public void setLast(String last) {
+        this.Last = last;
     }
 }
