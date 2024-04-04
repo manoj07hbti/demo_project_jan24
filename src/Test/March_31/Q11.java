@@ -1,12 +1,12 @@
-package ScannerWithInput;
+package Test.March_31;
+
+import ScannerWithInput.Advance_calC_ForLoop;
 
 import java.util.Scanner;
 
-public class Advance_calC_ForLoop {
-
-      /*  you need to create calc with break statement and without while loop
-1- for loop
-2- do while loop*/
+public class Q11 {
+    //Write a calculator App with Scanner
+    //ask user for choice : 11 for addition 22 for subtraction , 33 - for multiply and 44 for divide
 
     public int add(int a, int b) {
         return a + b;
@@ -29,7 +29,7 @@ public class Advance_calC_ForLoop {
 
 
     public static void main(String[] args) {
-        Advance_calC_ForLoop obj = new Advance_calC_ForLoop();
+        Q11 obj = new Q11();
         Scanner scan = new Scanner(System.in);
         double result = 0;
 
@@ -41,23 +41,23 @@ public class Advance_calC_ForLoop {
             System.out.println("Please enter B");
             int b = scan.nextInt();
 
-            System.out.println("Please enter 1: Add , 2 :sub, 3:multi and 4:Divide ");
+            System.out.println("Please enter 11: Add , 22 :sub, 33:multi and 44:Divide ");
             int choice = scan.nextInt();
 
             switch (choice) {
-                case 1:
+                case 11:
                     result = obj.add(a, b);
                     break;
 
-                case 2:
+                case 22:
                     result = obj.minus(a, b);
                     break;
 
-                case 3:
+                case 33:
                     result = obj.multi(a, b);
                     break;
 
-                case 4:
+                case 44:
                     result = obj.divide(a, b);
                     break;
 

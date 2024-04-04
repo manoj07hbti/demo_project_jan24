@@ -1,4 +1,4 @@
-package Test_18_Feb;
+package Test.Test_18_Feb;
 
 public class Q1 {
     public static void main(String[] args) {
