@@ -5,7 +5,7 @@ import java.util.Objects;
 public class Doctor {
 
     String Name ;
-    String Mobile;
+    String Shift;
     String Address;
     String Specialist;
 
@@ -17,11 +17,11 @@ public class Doctor {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Doctor doctor = (Doctor) o;
-        return Name.equals(doctor.Name) && Mobile.equals(doctor.Mobile) && Address.equals(doctor.Address) && Specialist.equals(doctor.Specialist);
+        return Name.equals(doctor.Name) && Shift.equals(doctor.Shift) && Address.equals(doctor.Address) && Specialist.equals(doctor.Specialist);
     }
     @Override
     public int hashCode() {
-        return Objects.hash(Name, Mobile, Address, Specialist);
+        return Objects.hash(Name, Shift, Address, Specialist);
     }
 
 
@@ -36,7 +36,7 @@ public class Doctor {
     // param Construction;
     public Doctor(String name, String mobile, String Address, String specialist) {
         Name = name;
-        Mobile = mobile;
+        Shift = mobile;
         Address = Address;
         Specialist = specialist;
     }
@@ -53,11 +53,11 @@ public class Doctor {
     }
 
     public String getMobileNo() {
-        return Mobile;
+        return Shift;
     }
 
     public void setMobileNo(String mobileNo) {
-        Mobile = mobileNo;
+        Shift = mobileNo;
     }
 
     public String getLocation() {
