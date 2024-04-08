@@ -1,6 +1,7 @@
 package collection_demo.array_list.hashmap;
 
 import java.util.HashMap;
+import java.util.Set;
 
 public class DemoHashMap {
 
@@ -22,6 +23,14 @@ public class DemoHashMap {
         // read data from map
         System.out.println(map.get(123));
         System.out.println( map.get(2));
+// how to print hashmap using loop
+    // Set<Integer> keys= map.keySet();
+
+     for(Integer var: map.keySet()){
+
+         System.out.println("Printing map using keys :"+map.get(var));
+     }
+
 
     }
 
