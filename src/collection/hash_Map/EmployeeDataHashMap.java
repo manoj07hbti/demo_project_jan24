@@ -58,13 +58,13 @@ public class EmployeeDataHashMap {
 
         for (EmployeeData employe : IBM) {
             if (employe.getSalary() >= 45000) {
-                System.out.println("Printing Employee List Behalf of IBM Salary"+employe.getName());
+                System.out.println("Printing Employee List Behalf of IBM Salary----"+employe.getName());
             }
         }
 
         for (EmployeeData employ : TCS) {
             if (employ.getSalary() >= 45000) {
-                System.out.println("Printing Employee List Behalf of TCS Salary"+employ.getName());
+                System.out.println("Printing Employee List Behalf of TCS Salary----"+employ.getName());
 
             }
 
