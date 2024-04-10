@@ -10,7 +10,7 @@ public class EmployeeDataHashMap {
     //  IBM  and TCS  (Print Salary > 45000
 
     public static void main(String[] args) {
-        EmployeeData emp1 = new EmployeeData(1102, "Aman", 25700.45);
+        EmployeeData emp1 = new EmployeeData(1102, "Aman", 25700.32);
         EmployeeData emp2 = new EmployeeData(1234, "Vinit", 40020.22);
         EmployeeData emp3 = new EmployeeData(7637, "Arjun", 66955.41);
         EmployeeData emp4 = new EmployeeData(1632, "Selja", 34511.91);
@@ -35,6 +35,7 @@ public class EmployeeDataHashMap {
         ArrayList<EmployeeData> IBM = new ArrayList<>();
         IBM.add(emp1);
         IBM.add(emp2);
+        IBM.add(emp3);
         IBM.add(emp4);
         IBM.add(emp5);
         IBM.add(emp6);
