@@ -11,6 +11,9 @@ public class DemoException {
        catch (Exception e){
            System.out.println("Exception occurred ...."+e);
        }
+       finally {
+           System.out.println("I am finally block AND get executed everytime...");
+       }
        System.out.println("After Division....");
        System.out.println("Division is : "+result);
    }
